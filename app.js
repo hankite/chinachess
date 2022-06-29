@@ -40,7 +40,7 @@ app.use("/", require("./routes/login"));
 app.use("/room", require("./routes/room"));
 app.use("/play", require("./routes/play"));
 
-const PORT = process.env.PORT || 4111;
+const PORT = process.env.PORT || 3000;
 
 //socket.io
 //app.use(require('./src/routes/chat.route'))
