@@ -2,9 +2,9 @@
   "name": "Dashboard",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "develop": "node index.js"
+    "build": "node app.js"
   },
   "keywords": [],
   "author": "",
