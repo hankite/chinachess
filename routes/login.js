@@ -13,6 +13,7 @@ const { protectRoute } = require("../auth/protect");
 const router = express.Router();
 
 router.get("/register", registerView);
+router.get("/", loginView);
 router.get("/login", loginView);
 //Dashboard
 //router.get("/dashboard", protectRoute, dashboardView);
