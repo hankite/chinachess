@@ -1,10 +1,11 @@
 {
-  "name": "Dashboard",
+  "name": "Chinachess",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Chinachess",
+  "main": "app.js",
   "scripts": {
-    "develop": "node index.js"
+    "build": "node app.js",
+	"start": "npm install && node app.js"
   },
   "keywords": [],
   "author": "",
